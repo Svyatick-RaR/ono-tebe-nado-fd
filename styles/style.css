@@ -8,7 +8,7 @@ header {
   align-items: center;
   width: 100%;
   max-width: 1100px;
-  padding: 92px 50px 100px;
+  padding: 92px 50px 97px;
 }
 
 nav {
@@ -22,17 +22,7 @@ nav {
   justify-content: space-between;
   font-size: 18px;
   list-style: circle;
-}
-
-.nav-list li {
-  position: relative;
-  left: -5px;
-}
-
-.nav-list li a {
-  position: relative;
-  left: 5px;
-  display: inline-block;
+  
 }
 
 .nav-link {
@@ -57,7 +47,7 @@ nav {
 .logo_center {
   display: block;
   width: 135px;
-  height: 98px;
+  height: 101px;
 }
 
 .header_address {
@@ -66,8 +56,7 @@ nav {
 }
 
 address {
-  max-width: 100%;
-  padding-right: 35px;
+  padding: 3px 36px 0 0;
   font-size: 18px;
   font-style: normal;
   line-height: 1.4;
@@ -140,9 +129,7 @@ h1 {
 }
 
 .cover__description-text {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+   word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -295,6 +282,7 @@ h1 {
   gap: 25px;
   margin-top: 100px;
   font-size: 20px;
+  margin-right: 2px;
 }
 
 .about__text p {
@@ -307,11 +295,12 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   width: 100%;
-  margin-top: 180px;
+  margin: 180px 0 80px;
   padding: 0 50px;
 }
 
 .footer_address {
+  padding: 0;
   display: grid;
   justify-self: start;
   align-self: start;
@@ -326,6 +315,7 @@ footer {
   width: 100%;
   font-size: 18px;
   text-align: center;
+  padding: 0;
 }
 
 .nav-list-footer {
