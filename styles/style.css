@@ -22,7 +22,6 @@ nav {
   justify-content: space-between;
   font-size: 18px;
   list-style: circle;
-  
 }
 
 .nav-link {
@@ -129,7 +128,7 @@ h1 {
 }
 
 .cover__description-text {
-   word-spacing: 18.5px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -281,8 +280,8 @@ h1 {
   flex-direction: column;
   gap: 25px;
   margin-top: 100px;
-  font-size: 20px;
   margin-right: 2px;
+  font-size: 20px;
 }
 
 .about__text p {
@@ -300,10 +299,10 @@ footer {
 }
 
 .footer_address {
-  padding: 0;
   display: grid;
   justify-self: start;
   align-self: start;
+  padding: 0;
 }
 
 .nav-footer {
@@ -313,9 +312,9 @@ footer {
   align-content: center;
   align-self: start;
   width: 100%;
+  padding: 0;
   font-size: 18px;
   text-align: center;
-  padding: 0;
 }
 
 .nav-list-footer {
